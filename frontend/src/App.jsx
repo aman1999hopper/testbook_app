@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
 import { StatusSection } from "./components/StatusSection";
+import { OfferSection } from "./components/OfferSection";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <HeroSection/>
     <StatusSection/>
+    <OfferSection/>
    </div>
   )
 }
