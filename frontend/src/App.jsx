@@ -1,8 +1,9 @@
 import { useState } from "react"
-import { Navbar } from "./components/Navbar";
-import { HeroSection } from "./components/HeroSection";
-import { StatusSection } from "./components/StatusSection";
-import { OfferSection } from "./components/OfferSection";
+import { Navbar } from "./screens/Navbar";
+import { HeroSection } from "./screens/HeroSection";
+import { StatusSection } from "./screens/StatusSection";
+import { OfferSection } from "./screens/OfferSection";
+import { AppUsers } from "./screens/AppUsers";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <HeroSection/>
     <StatusSection/>
     <OfferSection/>
+    <AppUsers/>
    </div>
   )
 }

@@ -2,49 +2,49 @@ import React from 'react'
 
 export const StatusSection = () => {
   return (
-    <div class="mt-7">
-        <div class="grid sm:grid-cols-4 py-6 px-6  gap-8 border rounded-2xl bg-gradient-to-t from-teal-100 to-transparent">
-        <div class="flex text-center items-center justify-center gap-2">
+    <div className="mt-7">
+        <div className="grid sm:grid-cols-4 py-6 px-6  gap-8 border rounded-2xl bg-gradient-to-t from-teal-100 to-transparent">
+        <div className="flex text-center items-center justify-center gap-2">
         <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" class="bi bi-patch-check" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green" className="bi bi-patch-check" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
         <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
         </svg>
         </div>
         <div >
-            <p class="text-nowrap">Registered Students</p>
-            <h2 class="font-semibold">6.1+ Crore</h2>
+            <p className="text-nowrap">Registered Students</p>
+            <h2 className="font-semibold">6.1+ Crore</h2>
         </div>
         </div>
-        <div class="flex text-center items-center justify-center gap-2">
-            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="yellow" class="bi bi-trophy" viewBox="0 0 16 16">
+        <div className="flex text-center items-center justify-center gap-2">
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="yellow" className="bi bi-trophy" viewBox="0 0 16 16">
         <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935M3.504 1q.01.775.056 1.469c.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.5.5 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667q.045-.694.056-1.469z"/>
         </svg></div>
         <div >
-            <p class="text-nowrap">Students Selection</p>
-            <h2 class="font-semibold">4+ Lacs</h2>
+            <p className="text-nowrap">Students Selection</p>
+            <h2 className="font-semibold">4+ Lacs</h2>
         </div>
         </div>
-        <div class="flex text-center items-center justify-center gap-2">
-            <div> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="purple" class="bi bi-journal-bookmark" viewBox="0 0 16 16">
+        <div className="flex text-center items-center justify-center gap-2">
+            <div> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="purple" className="bi bi-journal-bookmark" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8"/>
         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
         <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
         </svg></div>
         <div >
-            <p class="text-nowrap">Test Attempted</p>
-            <h2 class="font-semibold">242+ Crore</h2>
+            <p className="text-nowrap">Test Attempted</p>
+            <h2 className="font-semibold">242+ Crore</h2>
         </div>
         </div>
-        <div class="flex text-center items-center justify-center gap-2">
-        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-patch-question" viewBox="0 0 16 16">
+        <div className="flex text-center items-center justify-center gap-2">
+        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" className="bi bi-patch-question" viewBox="0 0 16 16">
         <path d="M8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.7 1.7 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745"/>
         <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
         <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0"/>
         </svg></div>
         <div >
-            <p class="text-nowrap">Classes Attended</p>
-            <h2 class="font-semibold">5.5+ Crore</h2>
+            <p className="text-nowrap">classNamees Attended</p>
+            <h2 className="font-semibold">5.5+ Crore</h2>
         </div>
         </div>
         </div>
