@@ -43,7 +43,7 @@ export const HeroSection = () => {
   
     </div>
     <div className="right-side mt-20">
-      <img src="https://img.freepik.com/free-vector/modern-web-design-concept-with-flat-design_23-2147856489.jpg?w=740&t=st=1725095935~exp=1725096535~hmac=2f2ff2626df054a737eb7938ee5e7a5949e50c790a05d27fa7adf9dd8f4f8f14" classNameName='rounded-xl' />
+      <img src="https://img.freepik.com/free-vector/modern-web-design-concept-with-flat-design_23-2147856489.jpg?w=740&t=st=1725095935~exp=1725096535~hmac=2f2ff2626df054a737eb7938ee5e7a5949e50c790a05d27fa7adf9dd8f4f8f14" className='rounded-xl ' />
     </div>
   </div>
   )
